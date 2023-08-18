@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
+  <link rel="stylesheet" href="style.css">
+  <style>
+    section{
+      padding: 60px 0;
+    }
+  </style>
+  <title>Website</title>
+</head>
+<body>
+  <!-- Nav {Header} section -->
+  <nav class="navbar navbar-expand-lg bg-body-tertiary fixed-top ">
+  <div class="container-lg">
+    <a class="navbar-brand" href="#Home"><span class="text-info"><span class="text-info"><i class="bi bi-laptop"></i></span>  R</span>ami <span class="text-info">O</span>uraci</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="#Home"><span class="text-info"><i class="bi bi-house-fill"></i></span>  Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="#About_Me"><span class="text-info"><i class="bi bi-person-circle"></i></span>  About Me</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="#My_Projects"><span class="text-info"><i class="bi bi-gear-fill"></i></span>  My Projects</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="#Contact_Me"><span class="text-info"><i class="bi bi-telephone-fill"></i></span>  Contact Me</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
+<!-- Homes section -->
+<section id="Home">
+  <div class="container-lg">
+    <div class="text-center mt-3 text-info">
+      <h5>Home Section :</h5>
+    </div>
+    <div class="row g-4 justify-content-center align-content-center">
+      <div class="col-md-5 text-center text-md-start mt-5">
+        <h1>
+          <div class="display-2">Rami Ouraci</div>
+          <div class="display-5 text-muted">Front-end Developer</div>
+        </h1>
+        <p class="lead my-4 text-muted">Welcome to my website when you can know me better.</p>
+        <a href="#My_Projects" class="btn btn-info btn-lg">Take a look for my projects</a>
+      </div>
+      <div class="col-md-5 text-center d-none d-md-block">
+        <img src="images/pngegg.png" class="img-fluid" alt="frontend">
+      </div>
+    </div>
+  </div>
+</section>
+
+
+
+
+
+ <!-- About me section -->
+<section id="About_Me" class="bg-light">
+  <div class="container-lg">
+    <div class="text-center">
+      <h5 class="text-info">Get to know me</h5>
+    </div>
+      <div class="row justify-content-center align-content-center g-4 mt-5">
+        <div class="col-md-5 text-center d-none d-md-block">
+          <img src="images/pngegg (2).png" class="img-fluid" alt="">
+
+        </div>
+        <div class="col-md-5 text-center">
+          <div class="accordion mt-5" id="accordionExample">
+            <div class="accordion-item">
+              <h2 class="accordion-header">
+                <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                  Me...
+                </button>
+              </h2>
+              <div id="collapseOne" class="accordion-collapse collapse show" data-bs-parent="#accordionExample">
+                <div class="accordion-body">
+                  <strong>Hello, I'm Rami Ouraci, born on 25 April 2004.</strong> I'm a dedicated individual with a passion for web development, particularly in the realm of front-end design and coding. With a knack for creating visually appealing and user-friendly digital experiences, I've found my calling in bringing websites to life and ensuring that they engage users effectively.
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                  The Present...
+                </button>
+              </h2>
+              <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                <div class="accordion-body">
+                  My journey into the world of web development began as a curiosity and evolved into a genuine love for crafting dynamic and captivating online spaces. I specialize in front-end development, where I skillfully combine HTML, CSS, and JavaScript to build interfaces that not only look great but also function seamlessly across different devices and browsers. <strong>Current projects you can find below this section.</strong>
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                  The Future...
+                </button>
+              </h2>
+              <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                <div class="accordion-body">
+                  In the grand tapestry of tomorrow, I envision myself as a dedicated front-end developer who crafts digital artistry that resonates with users on a profound level. The canvas of the web eagerly awaits my touch, and I am excited to embark on this journey of exploration and achievement.
+                </div>
+              </div>
+            </div>
+        </div>
+
+      </div>
+  </div>
+</section>
+
+
+
+
+
+<!-- My Projects section -->
+<section id="My_Projects"> 
+    <div class="container-lg mt-5">
+      <div class="text-center">
+        <h5 class="text-info">What i have done</h5>
+        <p class="lead">Take a look to these projects...</p>
+      </div>
+      <div class="row g-4 my-5 justify-content-center align-content-center">
+        <div class="col-12 col-sm-7 col-md-6 col-lg-5 col-xl-4 ">
+          <div class="card" style="width: 22rem;">
+            <img src="images/Screenshot 2023-08-03 173324.png" class="card-img-top" alt="Firstwebsite">
+            <div class="card-body ">
+              <h5 class="card-title">My First Website</h5>
+              <p class="card-text">This is the first Website I have done in my life. It has been done with HTML and CSS only.</p>
+              <a href="https://first-step-ochre.vercel.app/#" target="_blank" class="btn btn-info">Check It</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-12 col-sm-7 col-md-6 col-lg-5 col-xl-4"> 
+          <div class="card" style="width: 22rem;">
+            <img src="images/Screenshot 2023-08-18 021445.png" class="card-img-top" alt="Firstwebsite">
+            <div class="card-body ">
+              <h5 class="card-title">My Second Website</h5>
+              <p class="card-text">This is the Second Website I have done. It has been done with HTML and BOOTSTRAP only.</p>
+              <a href="#" target="_blank" class="btn btn-info">Check It</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="text-center">
+      <h5 class=" fw-bold">I only have these two websites and i think it's good when you've just started 2 months ago xD</h5>
+
+    </div>
+  </section>
+
+
+
+
+  <!-- Contact Me section -->
+  <section class="bg-light" id="Contact_Me">
+    <div class="container-lg">
+      <div class="text-center">
+        <h5 class="text-info">Get In Touch</h5>
+        <p class="lead">Questions to ask? Send me Here...</p>
+      </div>
+      <div class="row g-4 my-5 text-center justify-content-center align-content-center">
+        <div class="col-12 col-sm-7 col-md-6 col-lg-5 col-xl-4 ">
+          <div class="card" style="width: 22rem;">
+            <img src="images/wallpaperflare.com_wallpaper.jpg" class="card-img-top" alt="Firstwebsite">
+            <div class="card-body ">
+              <h5 class="card-title">My Email</h5>
+              <p class="card-text">ramiouraci31@gmail.com</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-12 col-sm-7 col-md-6 col-lg-5 col-xl-4"> 
+          <div class="card" style="width: 22rem;">
+            <img src="images/wallpaperflare.com_wallpaper (1).jpg" class="card-img-top" alt="Firstwebsite">
+            <div class="card-body ">
+              <h5 class="card-title">My Phone</h5>
+              <p class="card-text">+213793958621</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    </div>
+
+  </section>
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
+</body>
+</html>
